@@ -5,6 +5,6 @@ def my_collect(array)
     i = i + 1
   end
 end
-def my_collect(languages)
+def my_collect(collection)
   return languages.upcase
 end
