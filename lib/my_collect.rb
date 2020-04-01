@@ -6,12 +6,3 @@ def my_each(array)
   end
 end
 
-def hello(array)
-  i = o
-  collection = []
-  while i < array.length
-    collection << yield(array[i])
-    i + 1
-  end
-  collection
-end
