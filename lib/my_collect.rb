@@ -11,5 +11,6 @@ def my_collect(collection)
   while i < array.length
     collection << yield (array[i])
     i +=1
-  endcollection
+  end
+  collection
 end
